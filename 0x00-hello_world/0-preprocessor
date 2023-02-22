@@ -1,3 +1,3 @@
 #!/bin/bash
-cpp $CFILE -o $OUTFILE
+gcc -E| $CFILE -o c 
 
