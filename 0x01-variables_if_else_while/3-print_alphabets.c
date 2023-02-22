@@ -2,6 +2,7 @@
 
 /**
  * main - Prints the alphabet.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -13,6 +14,6 @@ char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	{
 		putchar(alp[i]);
 	}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
